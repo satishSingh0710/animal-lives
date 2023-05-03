@@ -1,0 +1,102 @@
+.nav-bar{
+  display:  flex; width: 100%; align-items: center;
+  background-color: rgba(119, 118, 118, 0.582); position: fixed;
+  top: 0px; z-index: 10;
+}
+
+.nav-bar h3{
+  font-family: cursive; margin-left: 40px; color: rgb(255, 255, 255);
+  font-size: 22px;
+}
+
+.nav-comp{
+  padding: 25px; font-size: 15px; text-decoration: none; font-family: cursive; color: rgb(254, 254, 254);
+}
+
+.nav-comp:hover{
+  color: antiquewhite;
+}
+
+.nav-link{
+  margin-left: auto;  margin-right: 25px;
+}
+
+.toggle{
+  display: none; cursor: pointer;
+}
+.bar{
+  display: block; width: 25px; height: 3px; margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+
+.nav-bg{
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)), url('../images/cocker-spaniel-2785074.jpg');
+  animation: slide 24s step-end infinite;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  height: 100vh;  z-index: -10;
+  background-attachment: fixed;
+}
+
+@keyframes slide {
+  25%{
+      background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)), url('../images/dogs-4477058.jpg');
+      background-size: cover;
+      background-repeat: no-repeat; 
+  }
+  50%{
+      background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)), url('../images/street-dogs-5903305.jpg');
+      background-size: cover;
+      background-repeat: no-repeat; 
+  }
+  75%{
+      background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)), url('../images/blonde-dog-4493887.jpg');
+      background-size: cover;
+      background-repeat: no-repeat; 
+  }
+  100%{
+      background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)), url('../images/dog-1876064.jpg');
+      background-size: cover;
+      background-repeat: no-repeat; 
+  }
+  
+}
+
+.nav-logo{position: relative; } 
+
+.nav-logo div{ width: 400px;  position: absolute; margin-left: auto; margin-right: auto;
+   left: 0; right: 0;
+  top: 60vh; font-family: cursive; color: rgb(185, 187, 188); 
+ }
+
+
+ @media(max-width:750px) {
+  .toggle{ display: block; margin-left: auto; margin-right: 2em;}
+  .toggle.active .bar:nth-child(2){opacity: 0;}
+  .toggle.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .toggle.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-link{ position: fixed; left: -100%; top: 70px; gap: 0; 
+    flex-direction: column;  background-color: rgba(119, 118, 118, 0.582);
+    width: 100%; text-align: center; transition: 0.3s;
+  }
+  .nav-comp{
+    margin: 5px 0px; display: block; 
+  }
+  .nav-link.active{
+    left: 0;
+  }
+}
+
+@media(max-width:400px){
+  .nav-logo div{
+    width: 100%;
+  }
+  
+}

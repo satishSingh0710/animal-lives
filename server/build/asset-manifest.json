@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82831742.css",
+    "main.js": "/static/js/main.e10537c3.js",
+    "static/media/street-dogs-5903305.jpg": "/static/media/street-dogs-5903305.5ca9737389f700d31704.jpg",
+    "static/media/blonde-dog-4493887.jpg": "/static/media/blonde-dog-4493887.2d5856708d44f6f58f65.jpg",
+    "static/media/dog-1876064.jpg": "/static/media/dog-1876064.b9e92660d6aee08df576.jpg",
+    "static/media/dogs-4477058.jpg": "/static/media/dogs-4477058.70821c88943227d1a68e.jpg",
+    "static/media/cocker-spaniel-2785074.jpg": "/static/media/cocker-spaniel-2785074.0d3f63d4baadda6e4c56.jpg",
+    "index.html": "/index.html",
+    "main.82831742.css.map": "/static/css/main.82831742.css.map",
+    "main.e10537c3.js.map": "/static/js/main.e10537c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82831742.css",
+    "static/js/main.e10537c3.js"
+  ]
+}

@@ -1,0 +1,64 @@
+.help-top{
+    width: 500px; margin: auto auto; margin-top: 7em; margin-bottom: 8em;
+}
+span{margin-left: 15px; font-weight: bold;}
+.all-stray{
+    margin-bottom: 6em; display: flex; flex-flow: row wrap; 
+    flex-basis: 280px; gap: 3.5em; justify-content: center;
+}
+.stray-box{
+    border: solid gray 1px; width: 270px; padding-top: 20px;
+    border-radius: 15px; background-color: rgba(238, 238, 238, 0.893);
+}
+
+.stray-img{
+    height: 280px; width: 186.6px; object-fit: cover;
+}
+.about-stray h3{
+    margin-top: 10px; margin-bottom: 0px; 
+}
+.about-stray h5{
+    margin-top: 10px; color: rgb(111, 109, 109);
+}
+.help-end{
+    display: flex; flex-flow: row wrap; justify-content: center;
+    gap: 7em; padding-bottom: 20px; background-color: rgb(208, 221, 221);
+}
+
+form{
+    padding: 20px; display: flex; flex-direction: column; width: 380px;
+}
+input{
+    margin-left: 20px; font-family: cursive;
+}
+.submit{width: 70%;  padding: 3px 0px; margin: auto auto; margin-top:15px ;}
+label{
+    padding: 15px;
+}
+.upload{
+    display: flex; justify-content: center; 
+}
+.upload input{
+    width: 180px;
+}
+.form-aside{
+    width: 320px; margin-top: 40px;
+}
+.form-aside h2{
+    padding: 0px 9px;
+}
+.form-aside p{
+    padding: 5px;
+}
+
+@media(max-width:500px) {
+    .help-top{
+        width: 80%;
+    }
+    .nav-logo div{
+        width: 100%;
+    }
+    .help-end{
+        gap:10px; padding-bottom: 50px;
+    }
+}

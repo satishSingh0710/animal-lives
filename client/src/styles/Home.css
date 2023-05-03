@@ -1,0 +1,53 @@
+   .home-main{ margin-top: 10em; 
+   }
+   .home-main h1{
+    color: rgb(93, 93, 91); 
+   }
+
+   .main-1{margin-top: 8em; }
+   .guide{
+    display: flex; text-align: left; justify-content: center; padding: 30px;
+    width: 80%; margin: auto auto; margin-bottom: 4em; flex-wrap: wrap;
+    border: solid gray 1px;
+   }
+   .txt{
+    width: 60%;
+    margin: 10px; margin-left: 40px ; 
+   }
+   .guide img{
+    width: 400px;  border-radius: 10px;
+    /* animation: slidein 5s forwards; */
+   }
+
+   
+
+   @keyframes slidein {
+        0%{
+            background-color: darkcyan;
+            transform: translateX(-100%);
+        }
+        100%{
+            transform: translateX(30%);
+        }
+   }
+
+   @media(max-width:1400px) {
+    .guide{
+        text-align: center;
+    }
+  }
+
+  @media(max-width:500px) {
+    .txt p{
+        width: 100%;
+    }
+    .txt{
+        width: 100%;
+    }
+    .guide img{
+        width: 100%;
+    }
+    .head{
+        font-size: 25px;
+    }
+  }

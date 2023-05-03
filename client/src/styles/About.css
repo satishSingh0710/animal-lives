@@ -1,0 +1,14 @@
+.about-out{
+    margin-top: 12em; margin-bottom: 17.555em;
+}
+
+.about-out p{
+    width: 50%; margin: auto auto; padding: 10px;
+}
+
+@media(max-width:500px) {
+
+    .about-out p{
+        width: 80%;
+    }
+}
